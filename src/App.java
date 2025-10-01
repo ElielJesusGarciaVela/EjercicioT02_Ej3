@@ -4,8 +4,10 @@ public class App {
         String direccion = "Calle Pedro Macanaz, Nº4 2B - Campanillas (Málaga) - España";
         String telefono = "637 247179";
 
-        System.out.printf("%s\n", nombre);
-        System.out.printf("%s\n", direccion);
-        System.out.printf("%s\n", telefono);
+        System.out.printf("""
+            %s
+            %s
+            %s
+                            """,nombre,direccion,telefono);
     }
 }
